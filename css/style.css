@@ -1,0 +1,376 @@
+body {
+    background-image: url("./Images/red-velvet-curtain1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+    background-attachment: fixed;
+    font-size:12px;
+    line-height: 17px;
+    color: yellow;
+}
+
+
+*{
+margin:0;
+padding: 0;
+}
+
+
+.banner {
+width:100%; 
+
+
+}
+
+/* NavBar design */
+html {
+    height: 100%;
+  }
+
+  nav {
+    max-width: 100%;
+    mask-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      #ffff 25%,
+      #ffff 75%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  
+  nav ul {
+    text-align:center;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.2) 25%,
+      rgba(255, 255, 255, 0.2) 75%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+      inset 0 0 1px rgba(255, 255, 255, 0.6);
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: rgb(255, 251, 0);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+
+  nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.616),
+      inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 0, 0);
+  }
+  
+  
+  /*Search box*/
+  form {
+    outline: 0;
+    float: left;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+  
+  form > .textbox {
+    outline: 0;
+    height: 42px;
+    width: 244px;
+    line-height: 42px;
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #212121;
+    border: 0;
+    float: left;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  form > .textbox:focus {
+    outline: 0;
+    background-color: #FFF;
+  }
+  
+  form > .button {
+    outline: 0;
+    background: none;
+    background-color: rgba(38, 50, 56, 0.8);
+    float: left;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    line-height: 42px;
+    border: 0;
+    color: #FFF;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  form > .button:hover {
+    background-color: rgba(253, 236, 0, 0.8);
+  }
+/*footer*/
+
+footer {
+    width: 100%; 
+    height: 30px;
+    background: linear-gradient(to bottom left, #800000 20%, #000000 80%);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+
+}
+
+.contactUs {
+margin-top:40px;
+}
+
+
+
+.mytext {
+	line-height: 22px;
+	font-weight: normal;
+	color: #ffffff;
+	width: 200px;
+}
+
+.one_column{
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.left_column{
+	float: left;
+	width: 230px;
+  padding-left: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.right_column{
+	float: right;
+	width: 260px;
+  padding-right: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.left_column p, {
+	padding-top: 10px;
+}
+
+.left_column h2, .right_column h2{
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.right_column fieldset {
+  border:6px;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+
+.right_column input {
+    margin-bottom: 5px;
+}
+
+#submit, #reset{
+    width: 65px;
+    height: 20px;
+	line-height: 20px;
+    border: 5px;
+    background-color: #3d0909;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ecdd0a;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#text1, #text2, #text3{
+    width: 239px;
+    height: 24px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color:  #3d0909 ;
+    background-repeat:no-repeat;
+    background-position:left top;
+    color: white;
+    font-size: 12px;
+	line-height: 24px;
+    padding-bottom: 5px;
+}
+
+#text_mess {
+    width: 239px;
+    height: 55px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color:  #3d0909 ;
+    background-repeat:no-repeat;
+    background-position:left top;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/*footer*/
+#footer_top{
+	background-color: rgba(255, 255, 255, 0.1);
+	width: 900px;
+  height: 250px;
+  margin: auto;
+}
+
+#footer_top p{
+	color: #ffffff;
+}
+
+#footer_pad{
+	padding: 40px 50px 30px 60px;
+}
+
+.column{
+    float: left ;
+    box-sizing: border-box;
+    width:33.33%;
+    padding-left: 20px;
+}
+
+
+.link1{
+    background: url(./images/link1.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link2{
+    background: url(./images/link2.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link3{
+    background: url(./Images/link3.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link4{
+    background: url(./images/link4.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+
+
+/*calendar*/
+
+#calendar table {
+    width: 230px;
+    text-align: center;
+    color: #ffffff;
+	font-size: 9px;
+}
+
+#calendar h2{
+	text-align: center;
+}
+
+#calendar tbody td {
+    border: none;
+    width: 34px;
+	color: #ffffff;
+}
+
+#calendar caption, #calendar thead th{
+	color: #ffffff;
+	font-weight: normal;
+}
+
+#calendar #prev {
+    text-align: left;
+}
+
+#calendar #next {
+    text-align: right;
+}
+
+#calendar a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#calendar #now {
+    background: #ffffff;
+    border: 1px solid #d17b02;
+    color: #000000;
+}
+
+
+a{
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d17b02;
+}
+
+
+
+h2{
+font-size: 18px;
+font-weight: normal;
+color: #d17b02;
+padding-bottom: 5px;
+}
+
+.clear{
+clear: both;	
+}
+
+#wrap{
+width: 900px;
+border-left: 1px solid #d17b02;
+border-right: 1px solid #d17b02;
+margin: 0 auto;
+}
